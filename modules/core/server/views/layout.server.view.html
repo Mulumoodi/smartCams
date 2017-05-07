@@ -33,9 +33,25 @@
 
   <!-- Application CSS Files -->
   {{#each cssFiles}}<link rel="stylesheet" href="/{{this}}">{{/each}}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel({interval: 1});
+  })
+</script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+</style>
 </head>
 
-<body class="ng-cloak fullBG">
+<body class="ng-cloak "><!--fullBG-->
   <header ng-include="'/modules/core/client/views/header.client.view.html'" class="navbar navbar-fixed-top"></header>
   <section class="content">
     <section class="container">
