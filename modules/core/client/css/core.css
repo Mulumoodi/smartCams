@@ -1,5 +1,55 @@
+iframe {
+  width: 100vw;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 930px;
+}
+.bottom-image-section {
+  margin-top: 10px;
+  /*padding: 0px;*/
+}
+.navbar-img {
+      width: 30px;
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+}
+.navbar-brand.navbar-title {
+  font-size: 17px;
+  padding-left: 0px;
+}
+.navbar-collapse .nav.navbar-right {
+  margin-right: 0px;
+}
 .content {
   margin-top: 50px;
+}
+.slide-img {
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /*background-size: contain;*/
+}
+.slide-img1 {
+  background-image: url('/modules/core/client/img/brand/bg7.jpg');
+   /* https://2.bp.blogspot.com/-c3Ai6aNSM3Y/VsRqh8q_r-I/AAAAAAAAJ0A/hK6unwr4YwM/s1600/blogpics.jpg*/
+}
+.slide-img2 {
+  background-image: url('/modules/core/client/img/brand/long3.jpg');
+  /*http://securitycameras-guide.com/wp-content/uploads/2016/04/Security-Camera-Home-Featured-1024x576.jpg*/
+}
+.slide-img3 {
+  background-image: url('/modules/core/client/img/brand/inst3.png');
+}
+.slide-img4 {
+  background-image: url('/modules/core/client/img/brand/smartrest.jpg');
+}
+  /*https://www.tdcanadatrust.com/images/GettyImages-138710291.jpg');*/
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -77,3 +127,77 @@ background-color: #fcf8e3;
 .margin{
   margin-top: 130px;
 }
+/*.container{
+  padding-top: 0px;
+  position: absolute;
+  top: 60px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/modules/core/client/img/brand/abt3.jpg');
+}*/
+
+.about-page.full-page {
+  padding-top: 60px;
+  /*position: absolute;
+  top: 60px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/modules/core/client/img/brand/abt3.jpg');*/
+}
+.about-page img {
+  height: 250px;
+}
+
+.about-page .title {
+  font-size: 30px;
+  /*color: white;*/
+  color: #337ab7;
+}
+
+.about-page .desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #337ab7;
+}
+.home-page .bottom-image-section * {
+  padding: 2px;
+}
+.home-page .bottom-image-section .caption {
+  color: white;
+  bottom: 200px;
+  font-size: 40px;
+  text-align: center;
+}
+.contact-page.full-page {
+  padding-top: 70px;
+}
+.contact-page img {
+  height: 200px;
+  width: 200px;
+}
+
+.contact-page .title {
+  font-size: 30px;
+  color: #337ab7;
+}
+
+.contact-page .desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #337ab7;
+}
+
+.first-box{padding:10px;}
+.second-box{padding:10px;}
+.third-box{padding:10px;}
+.fourth-box{padding:10px;}
+/*.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}*/

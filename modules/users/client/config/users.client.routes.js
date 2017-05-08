@@ -57,6 +57,14 @@
           pageTitle: 'Settings picture'
         }
       })
+      .state('settings.mailid', {
+        url: '/mailid',
+        templateUrl: '/modules/users/client/views/settings/subscribe_alerts.html',
+        controllerAs: 'vm',
+        data: {
+          pageTitle: 'Settings picture'
+        }
+      })
       .state('authentication', {
         abstract: true,
         url: '/authentication',
@@ -71,6 +79,20 @@
         controllerAs: 'vm',
         data: {
           pageTitle: 'Signup'
+        }
+      })
+      .state('about', {
+        url: '/about',
+        templateUrl: '/modules/users/client/views/about.html',
+        data: {
+          pageTitle: 'Signin'
+        }
+      })
+      .state('contact', {
+        url: '/contact',
+        templateUrl: '/modules/users/client/views/contact.html',
+        data: {
+          pageTitle: 'Signin'
         }
       })
       .state('authentication.signin', {

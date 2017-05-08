@@ -29,7 +29,7 @@
 
   // Then define the init function for starting up the application
   angular.element(document).ready(init);
-document.title = "This is the new page title.";
+  document.title = "This is the new page title.";
   function init() {
     // Fixing facebook bug with redirect
     if (window.location.hash && window.location.hash === '#_=_') {
