@@ -70,6 +70,7 @@
     "serve-favicon": "~2.4.2",
     "socket.io": "^1.7.3",
     "validator": "~7.0.0",
+    "watson-developer-cloud": "^2.31.1",
     "winston": "^2.3.1",
     "wiredep": "~4.0.0"
   },
