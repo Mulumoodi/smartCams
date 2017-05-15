@@ -12,8 +12,8 @@ var AWS = require('aws-sdk');
 /*AWS.config.update({accessKeyId:"AKIAJYFGMQSSIVNZV2DA",
  secretAccessKey:"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",
  "region":"us-west-2"});;*/
- AWS.config.update({accessKeyId:"AKIAIYWQUXYQ3IEH4N3A",
-  secretAccessKey:"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",
+ AWS.config.update({accessKeyId:"AKIA IYWQ UXYQ3 IEH4N3A",
+  secretAccessKey:"noG9TI5Tc0l6omz 7ACIi waiOlaxwQbD/jHhGjjlXp",
   "region":"us-west-2"});
   //AWSSecretKey=noG9TI5Tc0l6omz7ACIiwaiOlaxwQD/jHhGjjlXp
 
@@ -98,27 +98,8 @@ if (page == '/'){
                       console.log(obj7);
                       console.log("A "+obj7+" of age "+obj5+"-"+obj6+" found");
 
-                        sendNotif("A "+obj7+" of age "+obj5+"-"+obj6+" found");
-                      /*client.index({
-                        index: 'demographic_index_1',
-                        type: 'datetime_score',
-                        body: {
-                          "current_Time":current_time,
-                          //"current_Date":current_date,
-                          "current_Date":moment().format("YMMMM Do YYYY, HH:mm:ss.SSS"),
-                          "human_count":human_count_val,
-                          "scores":res
-                        }
-                      },function(err,resp,status) {
-                        if(err) {
-                          console.log(err);
-                        }
-                        else {
-                          console.log("create",resp);
-                        }
-                      })
-                      fs.unlinkSync('/Users/mulumoodi/Downloads/dl.png');
-                      console.log("Deletion succesful");*/
+                        sendNotif("A " +human_count_val +obj7+" of age "+obj5+"-"+obj6+" found");
+
                     }
                     client.index({
                       index: 'demographic_index_2',
