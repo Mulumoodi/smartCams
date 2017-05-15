@@ -12,15 +12,12 @@ var AWS = require('aws-sdk');
 /*AWS.config.update({accessKeyId:"AKIAJYFGMQSSIVNZV2DA",
  secretAccessKey:"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",
  "region":"us-west-2"});;*/
- AWS.config.update({accessKeyId:"AKIAIYWQUXYQ3IEH4N3A",
-  secretAccessKey:"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",
-  "region":"us-west-2"});
+ 
   //AWSSecretKey=noG9TI5Tc0l6omz7ACIiwaiOlaxwQD/jHhGjjlXp
 
 var visual_recognition = watson.visual_recognition({
   //api_key: 'c23b8c3f8eb01911834d2c50444f63cea40d56d2',
-  //"api_key": "187902a91b81e6327e22fcd1b0366854b7492457",
-  "api_key": "124fa79d2f965632f573ab8914f3182680d0aacf",
+  "api_key": "187902a91b81e6327e22fcd1b0366854b7492457",
   version: 'v3',
   version_date: '2016-05-20'
 });
@@ -124,7 +121,7 @@ if (page == '/'){
                       index: 'demographic_index_2',
                       type: 'datetime_score',
                       body: {
-                        "current_Time":moment().format("h:mm:ss"),
+                        "current_Time":current_time,
                         //"current_Date":current_date,
                         "current_Date":moment().format("YMMMM Do YYYY, HH:mm:ss.SSS"),
                         "human_count":human_count_val,
